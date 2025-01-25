@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Session01 from "./components/Session01";
+import Session02 from "./components/Session02";
+import Session03 from "./components/Session03";
+import Session04 from "./components/Session04";
+import Session05 from "./components/Session05";
+import Session06 from "./components/Session06";
+import Session07 from "./components/Session07";
+import Session08 from "./components/Session08";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Session01 />
+      <Session02 />
+      <Session03 />
+      <Session04 />
+      <Session05 />
+      <Session06 />
+      <Session07 />
+      <Session08 />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,57 @@
+.container-session08 {
+  background-color: var(--palha);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-session08 {
+  font-size: var(--size-lg);
+  color: var(--gray);
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+  width: 80%;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.card-session08 {
+  background-color: var(--green);
+  color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  width: 96%;
+}
+
+.card-session08 p {
+  font-size: var(--size-sm);
+  font-family: var(--font-text);
+}
+
+.subtitle-session08 {
+  font-size: var(--size-md);
+  color: var(--beje);
+  margin-bottom: 8px;
+  font-family: var(--font-title);
+}
+
+.btn-session08 {
+  margin: 16px;
+  padding: 26px 32px;
+  font-size: var(--size-sm);
+  font-weight: 600;
+  color: var(--off-white);
+}
+
+.footer-session08 {
+  background-color: var(--gray);
+  color: var(--off-white);
+  padding: 16px;
+  font-size: var(--size-sm);
+  text-align: center;
+  width: 100%;
+}

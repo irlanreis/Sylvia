@@ -1,0 +1,130 @@
+@import './Global.css';
+
+.container-session03 {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  background-color: var(--palha);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-session03, .subtitle-session03 {
+  font-size: var(--size-lg);
+  color: var(--gray);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.list-session03 {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 24px;
+  color: var(--green);
+  font-size: var(--size-sm);
+  font-weight: bold;
+  font-family: 'Arial';
+}
+
+.list-session03 li {
+  margin-bottom: 12px;
+}
+
+.details-session03 {
+  width: 90%;
+  background-color: var(--off-white);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+del {
+  color: red;
+  font-size: var(--size-md);
+}
+
+.details-session03 p {
+  font-size: var(--size-sm);
+  margin: 8px 0;
+  color: var(--green);
+}
+
+.details-session03 strong {
+  font-weight: bold;
+  color: var(--gray);
+}
+
+.highlight-session03 {
+  font-weight: bold;
+  color: var(--green);
+}
+
+.price-session03 {
+  font-size: var(--size-lg);
+  color: var(--green);
+  font-weight: bold;
+}
+
+.price-session03-finally {
+  font-size: var(--size-lg);
+  color: green;
+  font-weight: bold;
+  font-family: 'Arial';
+  margin: 30px 0;
+}
+
+.cta-button-session03 {
+  background-color: var(--beje);
+  color: var(--off-white);
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 80%;
+  margin-top: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button-session03:hover {
+  background-color: #b5906c;
+}
+
+@media (min-width: 768px) {
+  .container-session03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .title-session03 {
+    font-size: var(--size-xl);
+  }
+
+  .subtitle-session03 {
+    font-size: var(--size-xl);
+  }
+
+  .list-session03 {
+    font-size: var(--size-md);
+  }
+
+  .details-session03 p {
+    font-size: var(--size-md);
+  }
+
+  .price-session03 {
+    font-size: 24px;
+  }
+
+  .price-session03-finally {
+    font-size: var(--size-xl);
+  }
+
+  .cta-button-session03 {
+    font-size: var(--size-md);
+  }
+}
