@@ -1,4 +1,4 @@
-import '../styles/Session04.css'
+import '../styles/session04.css'
 
 function Session04() {
   return (
