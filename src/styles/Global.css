@@ -1,0 +1,30 @@
+:root {
+  --green: #2a483d;
+  --beje: #b88863;
+  --gray: #686867;
+  --off-white: #f2f2f2;
+  --palha: #dacfbf;
+
+  --size-xxs: max(0.5rem, 0.75vw);
+  --size-xs: max(0.75rem, 1vw);
+  --size-sm: max(1.2rem, 1.5vw);
+  --size-md: max(1.5rem, 2vw);
+  --size-lg: max(2rem, 3vw);
+  --size-xl: max(3rem, 4vw);
+  --size-xxl: max(4rem, 6vw);
+
+  --font-title: 'Arial';
+  --font-text: 'Roboto', sans-serif;
+
+};
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}

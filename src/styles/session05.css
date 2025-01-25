@@ -1,0 +1,90 @@
+@import './Global.css';
+
+.container-session05 {
+  padding: 20px;
+  background-color: var(--off-white);
+}
+
+.title-session05 {
+  font-size: 24px;
+  text-align: center;
+  color: var(--green);
+  font-family: var(--font-title);
+  margin-bottom: 20px;
+}
+
+.description-session05 {
+  font-size: 16px;
+  color: var(--green);
+  font-weight: bold;
+  font-family: var(--font-text);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.details-session05 {
+  font-size: var(--size-sm);
+  color: var(--green);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: var(--font-text);
+}
+
+.list-session05 {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.list-session05 li {
+  font-size: var(--size-sm);
+  color: var(--green);
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-family: var(--font-text);
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .container-session05 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .content-session05 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .title-session05 {
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: var(--font-title);
+  }
+
+  .description-session05 {
+    font-size: var(--size-md);
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: extra-bold;
+    font-family: var(--font-text);
+  }
+
+  .details-session05 {
+    font-size: var(--size-md);
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .list-session05 li {
+    font-size: var(--size-md);
+    margin-bottom: 10px;
+  }
+}

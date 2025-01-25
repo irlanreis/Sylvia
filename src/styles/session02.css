@@ -1,0 +1,79 @@
+@import './Global.css';
+
+.container-session02 {
+  background-color: var(--palha);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.title-session02 {
+  font-size: var(--size-lg);
+  color: var(--gray);
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+  width: 80%;
+  text-align: center;
+}
+
+.content-box-session02 {
+  margin-bottom: 16px;
+}
+
+.card-session02 {
+  background-color: var(--green);
+  color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.card-session02 p {
+  font-size: var(--size-sm);
+}
+
+.info-session02 {
+  font-size: var(--size-sm);
+  color: var(--gray);
+  margin: 16px 0;
+}
+
+.subtitle-session02 {
+  font-size: var(--size-md);
+  color: var(--gray);
+  margin-bottom: 16px;
+  width: 80%;
+}
+
+@media (min-width: 768px) {
+  .container-session02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .title-session02 {
+    font-size: var(--size-xl);
+  }
+
+  .subtitle-session02 {
+    font-size: var(--size-lg);
+  }
+
+  .card-session02 p {
+    font-size: var(--size-md);
+  }
+
+  .info-session02 {
+    font-size: var(--size-md);
+  }
+
+  .cta-button {
+    font-size: var(--size-md)
+  }
+}

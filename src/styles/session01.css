@@ -1,0 +1,109 @@
+@import "./Global.css";
+
+.container-session01 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("../assets/backgorunds_Sylvia/1.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 12%;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: var(--off-white);
+  margin: 0;
+}
+
+.header p {
+  color: var(--off-white);
+  font-size: 16px;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.content p {
+  font-size: var(--size-sm);
+  color: var(--off-white);
+  padding: 0 30px;
+  text-align: center;
+  background-color: var(--gray);
+  border-radius: 8px;
+  padding: 10px;
+  width: 90%;
+}
+
+.cta-button {
+  background-color: var(--green);
+  color: var(--off-white);
+  border: none;
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 80%;
+}
+
+.cta-button:hover {
+  background-color: ;
+}
+
+@media (min-width: 768px) {
+  .container-session01 {
+    background: url("../assets/backgorunds_Sylvia/1.jpg") no-repeat;
+    object-fit: cover;
+    background-size: cover;
+  }
+
+  .header {
+    height: 16%;
+    background-color: var(--green);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .date h1 {
+    font-size: var(--size-xl);
+  }
+  
+  .date p {
+    font-size: var(--size-md);
+  }
+
+  .content {
+    gap: 20px;
+  }
+
+  .content p {
+    font-size: var(--size-md);
+  }
+
+  .cta-button {
+    padding: 20px 30px;
+    font-size: 20px;
+  }
+}
+
