@@ -15,7 +15,7 @@ function Session04() {
           Uma sessão de mentoria exclusiva com Sylvia para tirar todas as suas
           dúvidas e potencializar seus resultados.
         </p>
-        <button className="cta-button-session04">Garanta sua vaga agora!</button>
+        <button className="cta-button">Garanta sua vaga agora!</button>
       </div>
     </div>
   )

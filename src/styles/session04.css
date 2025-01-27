@@ -23,8 +23,8 @@
   color: var(--beje);
   margin-bottom: 16px;
   font-family: var(--font-title);
-  text-align: center;
-  padding: 0 0 0 20px;
+  text-align: left;
+  padding: 0 0 0 40px;
 }
 
 .description-session04 {
@@ -34,6 +34,7 @@
   margin-bottom: 0;
   padding: 0 10px;
   margin-bottom: 16px;
+  width: 90%;
 }
 
 .bonus-session04 {
@@ -41,7 +42,7 @@
   color: var(--off-white);
   line-height: 1.5;
   font-family: var(--font-text);
-  width: 94%;
+  width: 90%;
 }
 
 .cta-button-session04 {

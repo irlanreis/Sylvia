@@ -38,7 +38,7 @@ function Session03() {
           <span className="price-session03-finally">Por 79,00 reais.</span>
         </p>
       </div>
-      <button className="cta-button-session03">Sim, quero participar</button>
+      <button className="cta-button">Sim, quero participar</button>
     </div>
   )
 }

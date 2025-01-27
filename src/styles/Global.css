@@ -1,15 +1,16 @@
 :root {
-  --green: #2a483d;
+  --green: #02402d;
+  --btn-green: #008000;
   --beje: #b88863;
   --gray: #686867;
   --off-white: #f2f2f2;
   --palha: #dacfbf;
 
   --size-xxs: max(0.5rem, 0.75vw);
-  --size-xs: max(0.75rem, 1vw);
+  --size-xs: max(1rem, 1.2vw);
   --size-sm: max(1.2rem, 1.5vw);
   --size-md: max(1.5rem, 2vw);
-  --size-lg: max(2rem, 3vw);
+  --size-lg: max(1.8rem, 3vw);
   --size-xl: max(3rem, 4vw);
   --size-xxl: max(4rem, 6vw);
 

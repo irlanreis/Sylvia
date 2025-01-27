@@ -13,7 +13,7 @@ const Session07 = () => {
           Agora, ela compartilha esse conhecimento exclusivo na Imersão Descomplicando a APS, para que Médicos como você possam atingir sua melhor versão profissional e oferecer um cuidado transformador aos seus pacientes.
         </p>
       </div>
-      <button className="cta-button-session07">Quero aprender com a Sylvia!</button>
+      <button className="cta-button">Quero aprender com a Sylvia!</button>
     </div>
   );
 };

@@ -1,15 +1,13 @@
 import "../styles/session01.css";
+import logo from "../assets/backgorunds_Sylvia/logo-sylvia.jpg";
 
 function Session01() {
   return (
     <div className="container-session01">
       <div className="header">
-        <div className="date">
-          <h1>Descomplicando a APS</h1>
-          <p>12 de fevereiro às 20h</p>
-        </div>
+        <img src={logo} alt="logo-lp" className="img-logo" />
+        <p>12 de Fevereiro às 20h</p>
       </div>
-
       <div className="content">
         <p>
           Participe de uma imersão de 2h exclusiva para Médicos e descubra como

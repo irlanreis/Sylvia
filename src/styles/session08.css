@@ -1,6 +1,5 @@
 .container-session08 {
   background-color: var(--palha);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -54,4 +53,49 @@
   font-size: var(--size-sm);
   text-align: center;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container-session08 {
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .card-session08 {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--palha);
+  }
+
+  .card-session08 p {
+    font-size: var(--size-lg);
+    line-height: 1.4;
+    color: var(--green);
+  }
+
+  .title-session08 {
+    font-size: var(--size-xl);
+    margin-bottom: 32px;
+  }
+
+  .subtitle-session08 {
+    font-size: var(--size-lg);
+    margin-bottom: 16px;
+    padding: 16px;
+    background-color: var(--green);
+    border-radius: 8px;
+    color: var(--off-white);
+  }
+
+  .btn-session08 {
+    padding: 32px 48px;
+    font-size: var(--size-md);
+  }
+
+  .footer-session08 {
+    font-size: var(--size-md);
+  }
 }

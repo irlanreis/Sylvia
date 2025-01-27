@@ -19,10 +19,6 @@
   text-align: center;
 }
 
-.content-box-session02 {
-  margin-bottom: 16px;
-}
-
 .card-session02 {
   background-color: var(--green);
   color: #fff;
@@ -38,8 +34,10 @@
 
 .info-session02 {
   font-size: var(--size-sm);
-  color: var(--gray);
+  color: var(--green);
   margin: 16px 0;
+  width: 80%;
+
 }
 
 .subtitle-session02 {

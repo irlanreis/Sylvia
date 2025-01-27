@@ -18,6 +18,7 @@ body {
   background-image: url('../assets/backgorunds_Sylvia/3.jpg');
   background-position: top;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -34,4 +35,21 @@ body {
   margin: 0.5rem;
   border-radius: 0.5rem;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .content-session06 {
+    padding-bottom: 2rem;
+  }
+
+  .text-session06 {
+    color: var(--green);
+    font-size: var(--size-lg);
+    line-height: 1.4;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--palha);
+    padding: 1rem;
+  }
 }
