@@ -2,7 +2,7 @@
 
 .container-session01 {
   font-family: Arial, sans-serif;
-  background: url("../assets/backgorunds_Sylvia/1.jpg") no-repeat center center;
+  background: url("../assets/backgorunds-Mobile-Tablet/1.jpg") no-repeat center center;
   background-size: cover;
   background-position: top;
   display: flex;
@@ -19,12 +19,12 @@
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 10px;
   background-color: var(--green);
   width: 100%;
-  height: 12%;
+  height: 24vw;
   border: 2px solid var(--off-white);
 }
 
@@ -35,29 +35,6 @@
   background-color: var(--btn-green);
   border-radius: 8px;
 }
-
-/* .header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 12%;
-  background-color: var(--green);
-  width: 100%;
-  text-align: center;
-  line-height: 1.4;
-} */
-/* 
-.header h1 {
-  font-size: var(--size-lg);
-  color: var(--off-white);
-  margin: 0;
-}
-
-.header p {
-  color: var(--palha);
-  font-size: 16px;
-  margin: 0;
-} */
 
 .content {
   display: flex;
@@ -98,16 +75,15 @@
 
 @media (min-width: 768px) {
   .container-session01 {
-    background: url("../assets/backgorunds_Sylvia/1.jpg") no-repeat;
     object-fit: cover;
     background-size: cover;
   }
 
   .header {
-    height: 16%;
     width: 100%;
     justify-content: space-evenly;
     border: 3px solid var(--off-white);
+    border-radius: 8px;
   }
 
   .header p {
@@ -122,10 +98,55 @@
   .content p {
     font-size: var(--size-md);
   }
-
-  .cta-button {
-    padding: 20px 30px;
-    font-size: 20px;
-  }
 }
 
+
+@media (min-width: 1024px) {
+  .container-session01 {
+    background: url("../assets/backgrounds-Desktop/1.jpg") no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: right;
+    align-items: start;
+    justify-content: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .header  {
+    height: 60%;
+    max-height: 400px;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0000;
+    border: none;
+    gap: 20px;
+  }
+
+  .img-logo {
+    width: 70%;
+    background-color: #0000;
+  }
+
+
+  .header p {
+    font-size: var(--size-md);
+    background-color: var(--off-white);
+    color: var(--green);
+    padding: 14px;
+  }
+
+  .content {
+    align-items: cender;
+    width: 50%;
+    margin: 0;
+  }
+
+  .content p {
+    font-size: var(--size-md);
+    width: 96%;
+    background-color: #0000;
+  }
+}

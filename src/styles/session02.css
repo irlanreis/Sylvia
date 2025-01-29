@@ -1,7 +1,7 @@
 @import './Global.css';
 
 .container-session02 {
-  background-color: var(--palha);
+  background-image: url('../assets/backgrounds-Desktop/2.jpg');
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   display: flex;
@@ -11,12 +11,21 @@
 }
 
 .title-session02 {
-  font-size: var(--size-lg);
+  font-size: var(--size-xl);
   color: var(--gray);
   margin-bottom: 16px;
   letter-spacing: -1px;
   width: 80%;
   text-align: center;
+  line-height: 1;
+}
+
+.content-box-session02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
 }
 
 .card-session02 {
@@ -25,15 +34,48 @@
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 12px;
-  font-size: 14px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-session02 p {
-  font-size: var(--size-sm);
+  font-size: var(--size-md);
+  color: var(--off-white);
+  font-famile: var(--font-text);
+  text-align: left;
+}
+
+.details-event-session02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--green);
+  border-radius: 8px;
+  padding: 20px;
+  background-color: var(--off-white);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.details-event-session02 h2 {
+  font-size: var(--size-lg);
+  color: var(--green);
+  margin-bottom: 16px;
+  width: 90%;
+}
+
+.details-event-session02 p {
+  font-size: var(--size-xs);
+  color: var(--green);
+  text-align: left;
+  margin-bottom: 5px;
 }
 
 .info-session02 {
-  font-size: var(--size-sm);
+  font-size: var(--size-md);
   color: var(--green);
   margin: 16px 0;
   width: 80%;
@@ -41,10 +83,9 @@
 }
 
 .subtitle-session02 {
-  font-size: var(--size-md);
+  font-size: var(--size-lg);
   color: var(--gray);
   margin-bottom: 16px;
-  width: 80%;
 }
 
 @media (min-width: 768px) {
@@ -59,12 +100,43 @@
     font-size: var(--size-xl);
   }
 
+  .content-box-session02 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .details-event-session02 {
+    width: 80%;
+  }
+
+  .details-event-session02 h2 {
+    font-size: var(--size-xl);
+  }
+
+  .details-event-session02 p {
+    font-size: var(--size-md);
+  }
+
   .subtitle-session02 {
-    font-size: var(--size-lg);
+    font-size: var(--size-xl);
+    width: 80%;
+  }
+
+  .card-session02 {
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
 
   .card-session02 p {
-    font-size: var(--size-md);
+    font-size: 22px;
   }
 
   .info-session02 {
@@ -73,5 +145,93 @@
 
   .cta-button {
     font-size: var(--size-md)
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-session02 {
+    gap: 40px;
+    background-image: url('../assets/backgrounds-Desktop/2.jpg');
+  }
+
+  .content-box-session02 {
+    display: flex;
+    gap: 20px;
+  }
+
+  .title-session02 {
+    font-size: var(--size-xl);
+    margin: 20px;
+  }
+
+  .details-event-session02 {
+    width: 50%;
+  }
+
+  .subtitle-session02 {
+    font-size: var(--size-xl);
+  }
+
+  .card-sessoion02 {
+
+  }
+
+  .card-session02 p {
+    font-size: var(--size-md);
+  }
+
+  .info-session02 {
+    font-size: var(--size-lg);
+  }
+
+  .cta-button {
+    font-size: var(--size-lg)
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-session02 {
+    gap: 60px;
+  }
+
+  .title-session02 {
+    font-size: var(--size-xl);
+  }
+
+  .details-event-session02 {
+    width: 40%;
+  }
+
+  .details-event-session02 h2 {
+    font-size: var(--size-lg);
+  }
+  
+  .details-event-session02 p {
+    font-size: var(--size-sm);
+  }
+
+  .subtitle-session02 {
+    font-size: var(--size-xl);
+  }
+  
+  .content-box-session02 {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .card-session02 {
+    width: 20%;
+  }
+
+  .card-session02 p {
+    font-size: var(--size-md);
+  }
+
+  .info-session02 {
+    font-size: var(--size-xl);
+  }
+
+  .cta-button {
+    font-size: var(--size-xl)
   }
 }

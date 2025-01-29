@@ -1,5 +1,5 @@
 import "../styles/session01.css";
-import logo from "../assets/backgorunds_Sylvia/logo-sylvia.jpg";
+import logo from "../assets/backgorunds-Mobile-Tablet/logo-transparente.png";
 
 function Session01() {
   return (

@@ -99,10 +99,37 @@ del {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    background-image: url('../assets/backgrounds-Desktop/2.jpg');
   }
 
   .title-session03 {
     font-size: var(--size-xl);
+  }
+
+  .list-session03 {
+    display: flex;
+    font-size: var(--size-sm);
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .list-session03 li {
+    list-style: none;
+    font-weight: 100;
+    font-size: var(--size-md);
+    border: 1px solid var(--gray);
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    background-color: var(--green);
+    color: var(--off-white);
   }
 
   .subtitle-session03 {
@@ -127,5 +154,73 @@ del {
 
   .cta-button-session03 {
     font-size: var(--size-md);
+  }
+}
+
+@media (min-width: 853px) {
+  .container-session03 {
+    background-image: url('../assets/backgrounds-Desktop/2.jpg');
+  }
+
+  .title-session03 {
+    font-size: var(--size-xl);
+  }
+
+  .subtitle-session03 {
+    font-size: var(--size-xl);
+  }
+
+  .list-session03 {
+    font-size: var(--size-md);
+  }
+
+  .details-session03 p {
+    font-size: var(--size-md);
+  }
+
+  .price-session03 {
+    font-size: var(--size-xl);
+  }
+
+  .price-session03-finally {
+    font-size: var(--size-xl);
+  }
+
+  .cta-button-session03 {
+    font-size: var(--size-md);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-session03 {
+  background-image: url('../assets/backgrounds-Desktop/2.jpg');
+  }
+
+  .title-session03 {
+    font-size: var(--size-xxl);
+  }
+
+  .subtitle-session03 {
+    font-size: var(--size-xxl);
+  }
+
+  .list-session03 {
+    font-size: var(--size-lg);
+  }
+
+  .details-session03 p {
+    font-size: var(--size-lg);
+  }
+
+  .price-session03 {
+    font-size: var(--size-xxl);
+  }
+
+  .price-session03-finally {
+    font-size: var(--size-xxl);
+  }
+
+  .cta-button-session03 {
+    font-size: var(--size-lg);
   }
 }
