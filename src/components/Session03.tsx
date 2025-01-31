@@ -16,29 +16,14 @@ function Session03() {
           humanizado.
         </li>
       </ul>
-      <h2 className="subtitle-session03">Detalhes do evento</h2>
-      <div className="details-session03">
-        <p>
-          <strong>Data:</strong> 12 de fevereiro de 2024 (quarta-feira)
-        </p>
-        <p>
-          <strong>Horário:</strong> 20 horas
-        </p>
-        <p>
-          <strong>Local:</strong> <span className="highlight-session03">100% Online</span>
-          <br />
-          (Acesso Exclusivo - sala secreta)
-        </p>
-      </div>
-
       <div className='highlight-session03 price-session03'>
-      <p>
-          De <del>499,00 reais</del>
-          <br />
-          <span className="price-session03-finally">Por 79,00 reais.</span>
+        <h2>Investimento</h2>
+      <p className="text">
+          Tudo isso de <span className="old-price-session03">R$ <del>499,00</del></span> por
         </p>
+          <p className="price-session03-finally">R$ 79,00</p> 
       </div>
-      <button className="cta-button-session03">Sim, quero participar</button>
+      <button className="cta-button">Sim, quero participar</button>
     </div>
   )
 }

@@ -1,12 +1,15 @@
 @import './Global.css';
 
 .container-session05 {
-  padding: 20px;
   background-color: var(--off-white);
 }
 
+.content-session05 {
+  padding: 20px;
+}
+
 .title-session05 {
-  font-size: 24px;
+  font-size: var(--size-xl);
   text-align: center;
   color: var(--green);
   font-family: var(--font-title);
@@ -14,13 +17,15 @@
 }
 
 .description-session05 {
-  font-size: 16px;
-  color: var(--green);
-  font-weight: bold;
+  font-size: var(--size-sm);
+  color: var(--off-white);
+  border-radius: 8px;
   font-family: var(--font-text);
-  line-height: 1.6;
+  padding: 10px;
+  line-height: 1.4;
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
+  background-color: var(--green);
 }
 
 .details-session05 {
@@ -33,17 +38,17 @@
 }
 
 .list-session05 {
-  list-style-type: disc;
+  list-style: disc;
   padding-left: 20px;
 }
 
 .list-session05 li {
   font-size: var(--size-sm);
   color: var(--green);
-  line-height: 1.6;
+  line-height: 1.4;
   margin-bottom: 10px;
   font-family: var(--font-text);
-  font-weight: bold;
+  font-weight: 50;
 }
 
 @media (min-width: 768px) {
@@ -51,7 +56,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
   }
 
   .content-session05 {
@@ -85,6 +89,88 @@
 
   .list-session05 li {
     font-size: var(--size-md);
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-session05 {
+    background-image: url("../assets/backgrounds-Desktop/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+    height: 100vh;
+  }
+  .content-session05 {
+    padding: 40px;
+    width: 60%;
+    max-width: 1000px;
+  }
+
+  .title-session05 {
+    font-size: var(--size-lg);
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .description-session05 {
+    font-size: max(1.5vw, 18px);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .details-session05 {
+    font-size: max(1.5vw, 18px);
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .list-session05 li {
+    font-size: max(1.5vw, 18px);
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-session05 {
+    background-image: url("../assets/backgrounds-Desktop/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+    height: 100vh;
+  }
+  .content-session05 {
+    padding: 40px;
+    width: 60%;
+    max-width: 1000px;
+  }
+
+  .title-session05 {
+    font-size: var(--size-lg);
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .description-session05 {
+    font-size: max(1.5vw, 18px);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .details-session05 {
+    font-size: max(1.5vw, 18px);
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .list-session05 li {
+    font-size: max(1.5vw, 18px);
     margin-bottom: 10px;
   }
 }

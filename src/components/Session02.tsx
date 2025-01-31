@@ -24,6 +24,23 @@ function Session02() {
           </p>
         </div>
       </div>
+      <div className="details-event-session02">
+      <h2 className="subtitle-session02">Detalhes do evento</h2>
+      <div className="details-session02">
+        <p>
+          <strong>Data:</strong> 12 de fevereiro de 2024 (quarta-feira)
+        </p>
+        <p>
+          <strong>Horário:</strong> 20 horas
+        </p>
+        <p>
+          <strong>Local:</strong> <span className="highlight-session02">100% Online</span>
+          <br />
+          (Acesso Exclusivo - sala secreta)
+        </p>
+
+      </div>
+      </div>
       <p className="info-session02">
         2 horas! Isso é tudo o que eu preciso para te mostrar...
       </p>

@@ -1,9 +1,8 @@
 @import "./Global.css";
 
 .container-session01 {
-  margin: 0;
   font-family: Arial, sans-serif;
-  background: url("../assets/backgorunds_Sylvia/1.jpg") no-repeat center center;
+  background: url("../assets/backgorunds-Mobile-Tablet/1.jpg") no-repeat center center;
   background-size: cover;
   background-position: top;
   display: flex;
@@ -11,26 +10,29 @@
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  color: white;
+}
+
+.img-logo {
+  width: 40%;
 }
 
 .header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 12%;
-}
-
-.header h1 {
-  font-size: 24px;
-  color: var(--off-white);
-  margin: 0;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--green);
+  width: 100%;
+  height: 24vw;
+  border: 2px solid var(--off-white);
 }
 
 .header p {
+  font-size: var(--size-xs);
   color: var(--off-white);
-  font-size: 16px;
-  margin: 0;
+  padding: 10px;
+  background-color: var(--btn-green);
+  border-radius: 8px;
 }
 
 .content {
@@ -54,43 +56,37 @@
 }
 
 .cta-button {
-  background-color: var(--green);
+  background-color: var(--btn-green);
   color: var(--off-white);
   border: none;
-  padding: 16px 24px;
   border-radius: 8px;
-  font-size: 16px;
+  padding: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 80%;
-}
+  font-size: var(--size-md);
+  font-weight: bold;
 
+}
 .cta-button:hover {
   background-color: ;
 }
 
 @media (min-width: 768px) {
   .container-session01 {
-    background: url("../assets/backgorunds_Sylvia/1.jpg") no-repeat;
     object-fit: cover;
     background-size: cover;
   }
 
   .header {
-    height: 16%;
-    background-color: var(--green);
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    border: 3px solid var(--off-white);
+    border-radius: 8px;
   }
 
-  .date h1 {
-    font-size: var(--size-xl);
-  }
-  
-  .date p {
+  .header p {
     font-size: var(--size-md);
+    padding: 20px;
   }
 
   .content {
@@ -100,10 +96,56 @@
   .content p {
     font-size: var(--size-md);
   }
-
-  .cta-button {
-    padding: 20px 30px;
-    font-size: 20px;
-  }
 }
 
+
+@media (min-width: 1024px) {
+  .container-session01 {
+    background: url("../assets/backgrounds-Desktop/1.jpg") no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: right;
+    align-items: start;
+    justify-content: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px;
+  }
+
+  .header  {
+    height: 60%;
+    max-height: 400px;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0000;
+    border: none;
+    gap: 20px;
+  }
+
+  .img-logo {
+    width: 70%;
+    background-color: #0000;
+  }
+
+
+  .header p {
+    font-size: var(--size-md);
+    background-color: var(--off-white);
+    color: var(--green);
+    padding: 14px;
+  }
+
+  .content {
+    align-items: cender;
+    width: 50%;
+    margin: 0;
+  }
+
+  .content p {
+    font-size: var(--size-md);
+    font-family: var(--font-text);
+    width: 90%;
+    background: none;
+  }
+}

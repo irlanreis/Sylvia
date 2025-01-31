@@ -7,11 +7,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 16px;
 }
 
 .card-session07 {
-  background-color: var(--off-white);
+  background-color: var(--palha);
   color: var(--green);
   border-radius: 8px;
   padding: 10px;
@@ -35,4 +36,30 @@
   cursor: pointer;
   transition: background-color 0.3s;
   margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .container-session07 {
+    padding: 32px;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .card-session07 {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--palha);
+  }
+
+  .card-session07 p {
+    font-size: var(--size-lg);
+    line-height: 1.4;
+  }
+
+  .cta-button-session07 {
+    padding: 16px 32px;
+  }
 }

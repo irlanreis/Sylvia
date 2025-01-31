@@ -1,32 +1,54 @@
-import '../styles/session08.css';
+import { useState } from "react";
+import "../styles/session08.css";
 
 const Session08 = () => {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const faq = [
+    {
+      question: "O evento é ao vivo?",
+      answer:
+        "Sim, e será uma oportunidade única para interagir com Sylvia e outros colegas Médicos.",
+    },
+    {
+      question: "Preciso de alguma experiência específica para participar?",
+      answer:
+        "Não! A Imersão é para Médicos recém-formados ou que atuam na atenção primária e buscam ser mais resolutivos.",
+    },
+    {
+      question: "Haverá replay?",
+      answer:
+        "Não, o conteúdo é exclusivo para quem participar ao vivo, garantindo um aprendizado imersivo.",
+    },
+  ];
+
+  const toggleFAQ = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
   return (
     <div className="container-session08">
       <h2 className="title-session08">Dúvidas Frequentes</h2>
-      <div className="card-session08">
-        <h3 className="subtitle-session08">O evento é ao vivo?</h3>
-        <p>Sim, e será uma oportunidade única para interagir com Sylvia e outros colegas Médicos.</p>
-      </div>
-      <div className="card-session08">
-        <h3 className="subtitle-session08">Preciso de alguma experiência específica para participar?</h3>
-        <p>Não! A Imersão é para Médicos recém-formados ou que atuam na atenção primária e buscam ser mais resolutivos.</p>
-      </div>
-      <div className="card-session08">
-        <h3 className="subtitle-session08">Haverá replay?</h3>
-        <p>Não, o conteúdo é exclusivo para quem participar ao vivo, garantindo um aprendizado imersivo.</p>
-      </div>
-      <div className='highlight-session03 price-session03'>
-      <p>
-          De <del>499,00 reais</del>
-          <br />
-          <span className="price-session03-finally">Por 79,00 reais.</span>
-        </p>
-      </div>
+        {
+          <div className="faq-section">
+            {faq.map((item, index) => (
+              <div
+                key={index}
+                className={`faq-item ${openIndex === index ? "open" : ""}`}
+                onClick={() => toggleFAQ(index)}
+              >
+                <div className="faq-question">{item.question}</div>
+                {openIndex === index && (
+                  <div className="faq-answer">{item.answer}</div>
+                )}
+              </div>
+            ))}
       <button className="cta-button btn-session08">Quero participar</button>
-      <div className='footer-session08'>
+          </div>
+        }
+      <div className="footer-session08">
         <p>
-        Dra. Sylvia Christine - Médica de Família e Comunidade | CRM: 19917 RQE: 11763
+          Dra. Sylvia Christine - Médica de Família e Comunidade | CRM: 19917
+          RQE: 11763
         </p>
       </div>
     </div>

@@ -1,13 +1,13 @@
 .container-session04 {
   background-color: rgba(0, 0, 0, 0.6); /* Fundo translúcido */
   text-align: center;
-  background-image: url("../assets/backgorunds_Sylvia/2.jpg");
+  background-image: url("../assets/backgorunds-Mobile-Tablet/2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  gap: 20px;
+  padding: 80px 20px;
 }
 
 .content-session04 {
@@ -15,47 +15,31 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 65%;
+  gap: 20px;
+  margin-top: 80px;
 }
 
 .title-session04 {
-  font-size: var(--size-xl);
+  font-size: var(--size-xxl);
   color: var(--beje);
   margin-bottom: 16px;
   font-family: var(--font-title);
-  text-align: center;
-  padding: 0 0 0 20px;
 }
 
 .description-session04 {
   font-size: var(--size-md);
   color: var(--palha);
   font-family: var(--font-text);
-  margin-bottom: 0;
-  padding: 0 10px;
   margin-bottom: 16px;
 }
 
 .bonus-session04 {
-  font-size: var(--size-sm);
+  font-size: var(--size-xs);
   color: var(--off-white);
   line-height: 1.5;
   font-family: var(--font-text);
-  width: 94%;
 }
 
-.cta-button-session04 {
-  background-color: var(--beje);
-  color: var(--off-white);
-  font-size: var(--size-md);
-  font-weight: bold;
-  border-radius: 8px;
-  margin-top: 16px;
-  cursor: pointer;
-  padding: 16px;
-  margin-bottom: 16px;
-  border: none;
-}
 
 @media (min-width: 768px) {
   .container-session04 {
@@ -63,9 +47,8 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
     align-items: start;
+    justify-content: center;
   }
 
   .content-session04 {
@@ -77,7 +60,6 @@
     font-size: var(--size-xxl);
     text-align: center;
     padding: 0;
-    margin-left: 12%;
   }
 
   .description-session04 {
@@ -88,6 +70,48 @@
 
   .bonus-session04 {
     font-size: var(--size-md);
+    width: 80%;
+  }
+
+  .cta-button-session04 {
+    width: 60%;
+    font-size: var(--size-lg);
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-session04 {
+    background-image: url("../assets/backgrounds-Desktop/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .content-session04 {
+    gap: 50px;
+    height: 70%;
+    max-height: 580px;
+    width: 60%;
+    margin: 20px;
+  }
+
+  .title-session04 {
+    font-size: max(4rem, 2.5vw);
+    text-align: center;
+    padding: 0;
+    width: 40%;
+  }
+
+  .description-session04 {
+    font-size: var(--size-lg);
+    text-align: center;
+    width: 80%;
+  }
+
+  .bonus-session04 {
+    font-size: var(--size-sm);
     width: 80%;
   }
 
