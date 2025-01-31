@@ -10,7 +10,7 @@ function Session01() {
       </div>
       <div className="content">
         <p>
-          Participe de uma imersão de 2h exclusiva para Médicos e descubra como
+          Participe de uma imersão de 2h <strong>exclusiva para Médicos</strong> e descubra como
           ser mais resolutivo na Atenção Primária e transformar seus
           atendimentos médicos.
         </p>

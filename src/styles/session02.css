@@ -12,6 +12,7 @@
 
 .title-session02 {
   font-size: var(--size-xl);
+  font-family: var(--font-title);
   color: var(--gray);
   margin-bottom: 16px;
   letter-spacing: -1px;
@@ -25,7 +26,6 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 20px;
 }
 
 .card-session02 {
@@ -45,7 +45,7 @@
 .card-session02 p {
   font-size: var(--size-md);
   color: var(--off-white);
-  font-famile: var(--font-text);
+  font-family: var(--font-text);
   text-align: left;
 }
 
@@ -58,6 +58,7 @@
   padding: 20px;
   background-color: var(--off-white);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin-top: 16px;
 }
 
 .details-event-session02 h2 {
@@ -69,6 +70,7 @@
 
 .details-event-session02 p {
   font-size: var(--size-xs);
+  font-family: var(--font-text);
   color: var(--green);
   text-align: left;
   margin-bottom: 5px;
@@ -76,6 +78,7 @@
 
 .info-session02 {
   font-size: var(--size-md);
+  font-family: var(--font-text);
   color: var(--green);
   margin: 16px 0;
   width: 80%;
@@ -84,6 +87,7 @@
 
 .subtitle-session02 {
   font-size: var(--size-lg);
+  font-family: var(--font-title);
   color: var(--gray);
   margin-bottom: 16px;
 }
@@ -142,10 +146,6 @@
   .info-session02 {
     font-size: var(--size-md);
   }
-
-  .cta-button {
-    font-size: var(--size-md)
-  }
 }
 
 @media (min-width: 1024px) {
@@ -162,6 +162,7 @@
   .title-session02 {
     font-size: var(--size-xl);
     margin: 20px;
+    font-family: var(--font-title);
   }
 
   .details-event-session02 {
@@ -173,7 +174,7 @@
   }
 
   .card-sessoion02 {
-
+    
   }
 
   .card-session02 p {
@@ -182,10 +183,6 @@
 
   .info-session02 {
     font-size: var(--size-lg);
-  }
-
-  .cta-button {
-    font-size: var(--size-lg)
   }
 }
 
@@ -201,6 +198,11 @@
   .details-event-session02 {
     width: 40%;
   }
+  
+  .content-box-session02 {
+    justify-content: center;
+    gap: 40px;
+  }
 
   .details-event-session02 h2 {
     font-size: var(--size-lg);
@@ -213,25 +215,16 @@
   .subtitle-session02 {
     font-size: var(--size-xl);
   }
-  
-  .content-box-session02 {
-    justify-content: center;
-    gap: 40px;
-  }
 
   .card-session02 {
     width: 20%;
   }
 
   .card-session02 p {
-    font-size: var(--size-md);
+    font-size: var(--size-sm);
   }
 
   .info-session02 {
     font-size: var(--size-xl);
-  }
-
-  .cta-button {
-    font-size: var(--size-xl)
   }
 }

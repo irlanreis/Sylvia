@@ -13,43 +13,85 @@ body {
 
 .container-session06 {
   display: flex;
-  justify-content: center;
-  align-items: end;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
   background-image: url('../assets/backgorunds-Mobile-Tablet/3.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
+  padding: 12px 12px 12px;
 }
 
 .content-session06 {
-  text-align: center;
-  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  min-height: 440px;
 }
 
 .text-session06 {
   font-size: var(--size-sm);
-  color: var(--off-white);
-  line-height: 1.2;
   font-family: var(--font-text);
-  margin: 0.5rem;
-  border-radius: 0.5rem;
+  color: var(--off-white);
+  border-radius: 8px;
+  line-height: 1.5;
   text-align: center;
+  width: 100%;
+  padding: 8px;
 }
 
 @media (min-width: 768px) {
+  .container-session06 {
+
+  }
   .content-session06 {
-    padding-bottom: 2rem;
+    width: 80%;
   }
 
   .text-session06 {
-    color: var(--green);
-    font-size: var(--size-lg);
-    line-height: 1.4;
-    width: 86%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: var(--palha);
-    padding: 1rem;
+    font-size: var(--size-sm);
+
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-session06 {
+    background-image: url('../assets/backgrounds-Desktop/5.jpg');
+    background-position: center;
+    align-items: end;
+    justify-content: center;
+    gap: 50px;
+    height: 100vh;
+  }
+  .content-session06 {
+    padding-bottom: 20px;
+    width: 50%;
+  }
+
+  .text-session06 {
+    font-size: var(--size-xs);
+    line-height: 1.5;
+    width: 80%;
+    padding: 1.5rem;
+  }
+
+  .btn06 {
+    background-color: var(--btn-green);
+    color: var(--off-white);
+    font-size: var(--size-sm);
+    font-family: var(--font-text);
+    padding: 20px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
   }
 }

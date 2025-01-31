@@ -10,7 +10,6 @@
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  color: white;
 }
 
 .img-logo {
@@ -60,14 +59,13 @@
   background-color: var(--btn-green);
   color: var(--off-white);
   border: none;
-  padding: var(--size-sm);
   border-radius: 8px;
-  font-size: var(--size-md);
+  padding: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 80%;
-  margin: 10px;
+  font-size: var(--size-md);
   font-weight: bold;
+
 }
 .cta-button:hover {
   background-color: ;
@@ -110,7 +108,7 @@
     align-items: start;
     justify-content: center;
     justify-content: center;
-    gap: 20px;
+    gap: 80px;
     padding: 20px;
   }
 
@@ -146,7 +144,8 @@
 
   .content p {
     font-size: var(--size-md);
-    width: 96%;
-    background-color: #0000;
+    font-family: var(--font-text);
+    width: 90%;
+    background: none;
   }
 }

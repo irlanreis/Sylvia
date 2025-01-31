@@ -1,18 +1,19 @@
-@import './Global.css';
+@import "./Global.css";
 
 .container-session03 {
-  background-color: #ffffff;
+  background-image: url("../assets/backgrounds-Desktop/2.jpg");
   border-radius: 8px;
-  padding: 0 16px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: left;
   background-color: var(--palha);
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 0 16px;
 }
 
-.title-session03, .subtitle-session03 {
+.title-session03,
+.subtitle-session03 {
   font-size: var(--size-lg);
   color: var(--gray);
   margin-bottom: 16px;
@@ -20,17 +21,31 @@
 }
 
 .list-session03 {
-  list-style: disc;
-  padding-left: 20px;
-  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: var(--green);
   font-size: var(--size-sm);
-  font-weight: bold;
-  font-family: 'Arial';
+  font-family: var(--font-text);
+  gap: 20px;
+  width: 80%;
 }
 
 .list-session03 li {
-  margin-bottom: 12px;
+  list-style: none;
+  font-weight: 100;
+  font-size: var(--size-sm);
+  border: 1px solid var(--gray);
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  background-color: var(--green);
+  color: var(--off-white);
 }
 
 .details-session03 {
@@ -48,7 +63,6 @@ del {
 .details-session03 p {
   font-size: var(--size-sm);
   margin: 8px 0;
-  color: var(--green);
 }
 
 .details-session03 strong {
@@ -57,23 +71,33 @@ del {
 }
 
 .highlight-session03 {
-  font-weight: bold;
   color: var(--green);
-  margin: 8px 0;
+  margin: 20px 0;
+  background: none;
+  text-align: center;
 }
 
-.price-session03 {
-  font-size: var(--size-lg);
-  color: var(--green);
-  font-weight: bold;
+
+.price-session03-finally,
+.price-session03 p {
+  color: green;
+  font-family: var(--font-title);
+}
+
+.text {
+  width: 780px;
+  font-size: var(--size-md);
+}
+
+.highlight-session03 h2 {
+  color: var(--gray);
+  font-family: var(--font-title);
+  font-size: var(--size-xl);
 }
 
 .price-session03-finally {
-  font-size: var(--size-lg);
-  color: green;
   font-weight: bold;
-  font-family: 'Arial';
-  margin: 30px 0;
+  font-size: var(--size-xxl);
 }
 
 .cta-button-session03 {
@@ -98,21 +122,13 @@ del {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    background-image: url('../assets/backgrounds-Desktop/2.jpg');
+    gap: 40px;
+    background-image: url("../assets/backgrounds-Desktop/2.jpg");
   }
 
   .title-session03 {
-    font-size: var(--size-xl);
-  }
-
-  .list-session03 {
-    display: flex;
-    font-size: var(--size-sm);
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    justify-content: center;
+    font-size: var(--size-xxl);
+    color: var(--green);
   }
 
   .list-session03 li {
@@ -126,7 +142,6 @@ del {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     background-color: var(--green);
     color: var(--off-white);
@@ -136,20 +151,30 @@ del {
     font-size: var(--size-xl);
   }
 
-  .list-session03 {
-    font-size: var(--size-md);
-  }
-
   .details-session03 p {
     font-size: var(--size-md);
   }
 
+  .highlight-session03 del {
+    font-size: var(--size-md);
+  }
+
+  .highlight-session03 h2 {
+    color: var(--gray);
+    font-family: var(--font-title);
+    font-size: var(--size-xl);
+  }
+
+  .text {
+    font-size: var(--size-xl);
+  }
+
   .price-session03 {
-    font-size: 24px;
+    font-size: var(--size-xl);
   }
 
   .price-session03-finally {
-    font-size: var(--size-xl);
+    font-size: var(--size-xxl);
   }
 
   .cta-button-session03 {
@@ -159,7 +184,7 @@ del {
 
 @media (min-width: 853px) {
   .container-session03 {
-    background-image: url('../assets/backgrounds-Desktop/2.jpg');
+    background-image: url("../assets/backgrounds-Desktop/2.jpg");
   }
 
   .title-session03 {
@@ -183,7 +208,7 @@ del {
   }
 
   .price-session03-finally {
-    font-size: var(--size-xl);
+    font-size: var(--size-xxl);
   }
 
   .cta-button-session03 {
@@ -193,30 +218,56 @@ del {
 
 @media (min-width: 1024px) {
   .container-session03 {
-  background-image: url('../assets/backgrounds-Desktop/2.jpg');
+    background-image: url("../assets/backgrounds-Desktop/2.jpg");
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
   }
 
   .title-session03 {
-    font-size: var(--size-xxl);
-  }
-
-  .subtitle-session03 {
-    font-size: var(--size-xxl);
+    font-size: var(--size-xl);
+    font-family: var(--font-title);
   }
 
   .list-session03 {
-    font-size: var(--size-lg);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .list-session03 li {
+    font-size: var(--size-sm);
+    font-weight: 600;
+    font-family: var(--font-text);
+    background: none;
+    color: var(--green);
+    height: 260px;
+    max-width: 460px;
+    padding: 40px;
+    border: 2px solid var(--green);
   }
 
   .details-session03 p {
     font-size: var(--size-lg);
   }
 
-  .price-session03 {
-    font-size: var(--size-xxl);
+  .highlight-session03 {
+    background: none;
+    text-align: center;
+  }
+
+  .text {
+    width: 780px;
+    font-size: var(--size-md);
+  }
+
+  .highlight-session03 h2 {
+    color: var(--gray);
+    font-family: var(--font-title);
+    font-size: var(--size-xl);
   }
 
   .price-session03-finally {
+    font-weight: bold;
     font-size: var(--size-xxl);
   }
 

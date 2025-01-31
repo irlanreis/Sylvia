@@ -17,11 +17,11 @@ function Session03() {
         </li>
       </ul>
       <div className='highlight-session03 price-session03'>
-      <p>
-          De <del>499,00 reais</del>
-          <br />
-          <span className="price-session03-finally">Por 79,00 reais.</span>
+        <h2>Investimento</h2>
+      <p className="text">
+          Tudo isso de <span className="old-price-session03">R$ <del>499,00</del></span> por
         </p>
+          <p className="price-session03-finally">R$ 79,00</p> 
       </div>
       <button className="cta-button">Sim, quero participar</button>
     </div>

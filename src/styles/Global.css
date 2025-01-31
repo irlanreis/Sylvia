@@ -8,11 +8,11 @@
 
   --size-xxs: max(0.5rem, 0.75vw);
   --size-xs: max(1rem, 1.2vw);
-  --size-sm: max(1.2rem, 1.5vw);
+  --size-sm: max(1.3rem, 1.4vw);
   --size-md: max(1.5rem, 2vw);
   --size-lg: max(1.8rem, 3vw);
-  --size-xl: max(2.4rem, 3.2vw);
-  --size-xxl: max(4rem, 6vw);
+  --size-xl: max(3.4rem, 2.8vw);
+  --size-xxl: max(5rem, 3.5vw);
 
   --font-title: 'Arial';
   --font-text: 'Roboto', sans-serif;
