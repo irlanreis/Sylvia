@@ -19,7 +19,7 @@ body {
   background-image: url('../assets/backgorunds-Mobile-Tablet/3.jpg');
   background-position: top;
   background-repeat: no-repeat;
-  padding: 40px 12px;
+  background-size: cover;
 }
 
 .content-session06 {
@@ -29,11 +29,10 @@ body {
   flex-direction: column;
   gap: 10px;
   padding-bottom: 10px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 8px;
   margin-bottom: 24px;
-  height: 60%;
-  margin-top: 80%;
+  margin-top: 60%;
 }
 
 .text-session06 {
@@ -42,7 +41,7 @@ body {
   font-weight: 300;
   color: var(--off-white);
   border-radius: 8px;
-  line-height: 1.5;
+  line-height: 1.2;
   text-align: center;
   width: 100%;
   padding: 8px;
