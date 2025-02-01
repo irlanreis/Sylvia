@@ -12,6 +12,10 @@
   height: 100vh;
 }
 
+.destaque01 {
+  color: var(--palha);
+}
+
 .img-logo {
   width: 40%;
 }
@@ -46,6 +50,7 @@
 
 .content p {
   font-size: var(--size-sm);
+  font-family: var(--font-text);
   color: var(--off-white);
   padding: 0 30px;
   text-align: center;
@@ -65,10 +70,13 @@
   transition: background-color 0.3s ease;
   font-size: var(--size-md);
   font-weight: bold;
-
+  font-family: var(--font-text);
+  text-decoration: none;
 }
 .cta-button:hover {
-  background-color: ;
+  background-color: var(--palha);
+  color: var(--green);
+  border: 2px solid var(--green);
 }
 
 @media (min-width: 768px) {
@@ -147,5 +155,9 @@
     font-family: var(--font-text);
     width: 90%;
     background: none;
+  }
+
+  .cta-button:hover {
+    background-color: var(--palha);
   }
 }

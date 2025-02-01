@@ -20,13 +20,10 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 120vh;
-  padding: 12px 12px 12px;
+  padding: 40px 12px;
 }
 
 .content-session06 {
-  display: flex;
-  justify-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,18 +32,32 @@ body {
   padding-bottom: 10px;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
-  min-height: 440px;
+  margin-bottom: 24px;
+  height: 60%;
+  margin-top: 80%;
 }
 
 .text-session06 {
   font-size: var(--size-sm);
   font-family: var(--font-text);
+  font-weight: 300;
   color: var(--off-white);
   border-radius: 8px;
   line-height: 1.5;
   text-align: center;
   width: 100%;
   padding: 8px;
+}
+
+.btn06 {
+  background-color: var(--btn-green);
+  color: var(--off-white);
+  font-size: var(--size-sm);
+  font-family: var(--font-text);
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 @media (min-width: 768px) {
@@ -73,15 +84,31 @@ body {
     height: 100vh;
   }
   .content-session06 {
-    padding-bottom: 20px;
-    width: 50%;
+    width: 60%;
+    margin-top: 0;
+    background: none;
+  }
+
+  .text-session06-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    margin-top: 30px;
   }
 
   .text-session06 {
-    font-size: var(--size-xs);
+    font-size: var(--size-sm);
+    font-family: var(--font-text);
+    font-weight: 100;
     line-height: 1.5;
     width: 80%;
-    padding: 1.5rem;
+
   }
 
   .btn06 {

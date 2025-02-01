@@ -11,7 +11,7 @@
 }
 
 .title-session02 {
-  font-size: var(--size-xl);
+  font-size: var(--size-lg);
   font-family: var(--font-title);
   color: var(--gray);
   margin-bottom: 16px;
@@ -55,7 +55,7 @@
   align-items: center;
   border: 1px solid var(--green);
   border-radius: 8px;
-  padding: 20px;
+  padding: 10px;
   background-color: var(--off-white);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   margin-top: 16px;
@@ -65,11 +65,11 @@
   font-size: var(--size-lg);
   color: var(--green);
   margin-bottom: 16px;
-  width: 90%;
+  width: 100%;
 }
 
 .details-event-session02 p {
-  font-size: var(--size-xs);
+  font-size: var(--size-sm);
   font-family: var(--font-text);
   color: var(--green);
   text-align: left;
@@ -166,7 +166,7 @@
   }
 
   .details-event-session02 {
-    width: 50%;
+    width: 60%;
   }
 
   .subtitle-session02 {

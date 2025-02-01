@@ -10,15 +10,14 @@
   --size-xs: max(1rem, 1.2vw);
   --size-sm: max(1.3rem, 1.4vw);
   --size-md: max(1.5rem, 2vw);
-  --size-lg: max(1.8rem, 3vw);
+  --size-lg: max(2rem, 3vw);
   --size-xl: max(3.4rem, 2.8vw);
   --size-xxl: max(5rem, 3.5vw);
 
-  --font-title: 'Arial';
-  --font-text: 'Roboto', sans-serif;
+  --font-title: 'Grenze Gotisch';
+  --font-text: 'Libre Franklin';
 
 };
-
 
 * {
   box-sizing: border-box;
@@ -26,6 +25,7 @@
   padding: 0;
 }
 
-body {
+body, html {
   margin: 0;
+  overflow-x: hidden;
 }

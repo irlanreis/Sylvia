@@ -4,18 +4,19 @@ function Session06() {
   return (
     <div className="container-session06">
       <div className="content-session06">
-        <p className="text-session06">
-          Sylvia é Docente de Graduação em Medicina e mestranda em Saúde da
-          Família pela FIOCRUZ-CE, reafirmando seu compromisso com o aprendizado
-          contínuo e com a disseminação de um modelo de medicina humanizada e
-          baseado em evidências.
-        </p>
+        <div className="text-session06-container">
+          <p className="text-session06">
+            Sylvia é <strong>Docente de Graduação em Medicina</strong> e mestranda em Saúde da
+            Família pela FIOCRUZ-CE, reafirmando seu compromisso com o
+            <strong> aprendizado contínuo</strong> e com a disseminação de um modelo de medicina
+            humanizada e baseado em evidências.
+          </p>
 
           <p className="text-session06">
             Com sua experiência e paixão pelo ensino, Sylvia já transformou a
-            forma como mais de 100 médicos e estudantes de medicina enxergam a
-            medicina de família, ajudando-os a atender com confiança e
-            eficiência na Atenção Primária.
+            forma de como mais de 100 médicos e estudantes de medicina realizam
+            os atendimentos na <strong>Atenção Primária à Saúde</strong>,
+            ensinando-os a atender com mais confiança e eficiência.
           </p>
           <p className="text-session06">
             Agora, ela compartilha esse conhecimento exclusivo na Imersão
@@ -23,9 +24,16 @@ function Session06() {
             melhor versão profissional e oferecer um cuidado transformador aos
             seus pacientes.
           </p>
-        <button className="cta-button btn06">Quero aprender com a Sylvia!</button>
         </div>
+        <a
+          className="cta-button btn06"
+          href="https://pay.hub.la/kUnf7nnTbBbsiegg5Oi4"
+          target="_blank"
+        >
+          Quero aprender com a Sylvia!
+        </a>
       </div>
+    </div>
   );
 }
 
