@@ -1,4 +1,4 @@
-import '../styles/session04.css'
+import "../styles/session04.css";
 
 function Session04() {
   return (
@@ -15,10 +15,16 @@ function Session04() {
           Uma sessão de mentoria exclusiva com Sylvia para tirar todas as suas
           dúvidas e potencializar seus resultados.
         </p>
-        <button className="cta-button">Garanta sua vaga agora!</button>
+        <a
+          className="cta-button"
+          href="https://pay.hub.la/kUnf7nnTbBbsiegg5Oi4"
+          target="_blank"
+        >
+          Garanta sua vaga agora!
+        </a>
       </div>
     </div>
-  )
+  );
 }
 
-export default Session04
+export default Session04;

@@ -100,22 +100,6 @@ del {
   font-size: var(--size-xxl);
 }
 
-.cta-button-session03 {
-  background-color: var(--beje);
-  color: var(--off-white);
-  border: none;
-  padding: 16px;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  width: 80%;
-  margin-top: 16px;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button-session03:hover {
-  background-color: #b5906c;
-}
 
 @media (min-width: 768px) {
   .container-session03 {
@@ -124,6 +108,7 @@ del {
     align-items: center;
     gap: 40px;
     background-image: url("../assets/backgrounds-Desktop/2.jpg");
+    padding-bottom: 40px;
   }
 
   .title-session03 {
@@ -219,7 +204,6 @@ del {
 @media (min-width: 1024px) {
   .container-session03 {
     background-image: url("../assets/backgrounds-Desktop/2.jpg");
-    height: 100vh;
     align-items: center;
     justify-content: center;
   }
@@ -236,13 +220,13 @@ del {
 
   .list-session03 li {
     font-size: var(--size-sm);
-    font-weight: 600;
     font-family: var(--font-text);
+    font-weight: 400;
     background: none;
     color: var(--green);
-    height: 260px;
-    max-width: 460px;
-    padding: 40px;
+    height: 280px;
+    max-width: 560px;
+    padding: 20px;
     border: 2px solid var(--green);
   }
 

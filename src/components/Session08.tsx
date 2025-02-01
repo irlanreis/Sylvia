@@ -28,28 +28,31 @@ const Session08 = () => {
   return (
     <div className="container-session08">
       <h2 className="title-session08">Dúvidas Frequentes</h2>
-        {
-          <div className="faq-section">
-            {faq.map((item, index) => (
-              <div
-                key={index}
-                className={`faq-item ${openIndex === index ? "open" : ""}`}
-                onClick={() => toggleFAQ(index)}
-              >
-                <div className="faq-question">{item.question}</div>
-                {openIndex === index && (
-                  <div className="faq-answer">{item.answer}</div>
-                )}
-              </div>
-            ))}
-      <button className="cta-button btn-session08">Quero participar</button>
-          </div>
-        }
-      <div className="footer-session08">
-        <p>
-          Dra. Sylvia Christine - Médica de Família e Comunidade | CRM: 19917
-          RQE: 11763
-        </p>
+      {
+        <div className="faq-section">
+          {faq.map((item, index) => (
+            <div
+              key={index}
+              className={`faq-item ${openIndex === index ? "open" : ""}`}
+              onClick={() => toggleFAQ(index)}
+            >
+              <div className="faq-question">{item.question}</div>
+              {openIndex === index && (
+                <div className="faq-answer">{item.answer}</div>
+              )}
+            </div>
+          ))}
+        </div>
+      }
+      <a
+        className="cta-button btn-session08"
+        href="https://pay.hub.la/kUnf7nnTbBbsiegg5Oi4"
+        target="_blank"
+      >
+        Quero participar
+      </a>
+      <div className="footer-session08 ">
+        <p>Dra. Sylvia Christine - SCPM DIGITAL LTDA | CNPJ:  59.167.404/0001-17</p>
       </div>
     </div>
   );

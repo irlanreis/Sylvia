@@ -10,11 +10,17 @@ function Session01() {
       </div>
       <div className="content">
         <p>
-          Participe de uma imersão de 2h <strong>exclusiva para Médicos</strong> e descubra como
-          ser mais resolutivo na Atenção Primária e transformar seus
-          atendimentos médicos.
+          Participe de uma imersão de 2h <strong className="destaque01">exclusiva para Médicos</strong>{" "}
+          e descubra como ser mais resolutivo na Atenção Primária e transformar
+          seus atendimentos médicos.
         </p>
-        <button className="cta-button">Garantir meu lugar</button>
+        <a
+          className="cta-button"
+          href="https://pay.hub.la/kUnf7nnTbBbsiegg5Oi4"
+          target="_blank"
+        >
+          Garantir meu lugar
+        </a>
       </div>
     </div>
   );
