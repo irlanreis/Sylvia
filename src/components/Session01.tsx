@@ -10,7 +10,7 @@ function Session01() {
       </div>
       <div className="content">
         <p>
-        <strong className="destaque01">Alta demanda?</strong> pouco tempo e muitas queixas? Descubra <strong className="destaque01">como atender na APS com eficiência e segurança</strong> sem comprometer a qualidade!
+        <strong className="destaque01">Alta demanda,</strong> pouco tempo e muitas queixas? Descubra <strong className="destaque01">como atender na APS com eficiência e segurança</strong> sem comprometer a qualidade!
         </p>
         <a
           className="cta-button"
