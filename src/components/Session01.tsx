@@ -10,9 +10,7 @@ function Session01() {
       </div>
       <div className="content">
         <p>
-          Participe de uma imersão de 2h <strong className="destaque01">exclusiva para Médicos</strong>{" "}
-          e descubra como ser mais resolutivo na Atenção Primária e transformar
-          seus atendimentos médicos.
+        <strong className="destaque01">Alta demanda?</strong> pouco tempo e muitas queixas? Descubra <strong className="destaque01">como atender na APS com eficiência e segurança</strong> sem comprometer a qualidade!
         </p>
         <a
           className="cta-button"
